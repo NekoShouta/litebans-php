@@ -4,7 +4,7 @@ class Lang {
         $array = array();
         $this->array = &$array;
         $array["index_welcome"] = 'Bienvenido a la Lista de Sanciones de {server}.';
-        $array["index_welcome2"] = 'Aquí se encuntran todas las Sanciones del Servidor.';
+        $array["index_welcome2"] = 'Aquí se encuentran todas las sanciones del servidor.';
 
         $array["header_index"] = 'Inicio';
         $array["header_bans"] = 'Baneos';
@@ -35,7 +35,7 @@ class Lang {
         $array["history_tabletype"] = "Sanción";
         $array["history_tableplayer"] = "Jugador";
         $array["history_tablemoderator"] = "Moderador";
-        $array["history_tablereason"] = "Razón";
+        $array["history_tablereason"] = "Motivo";
         $array["history_tabledate"] = "Fecha";
         $array["history_tableexpires"] = "Expira";
         $array["history_nopunishments"] = "Castigos No Encontrados.";
@@ -43,48 +43,52 @@ class Lang {
 
         $array["info_banned_player"] = "Jugador Baneado";
         $array["info_banned_by"] = "Baneado por";
-        $array["info_banned_reason"] = "Razón del Baneo";
+        $array["info_banned_reason"] = "Motivo del Baneo";
         $array["info_banned_when"] = "Baneado el";
         $array["info_banned_expiry"] = "Expira";
         $array["info_muted_player"] = "Jugador Muteado";
         $array["info_muted_by"] = "Muteado por";
-        $array["info_muted_reason"] = "Razón del Muteo";
+        $array["info_muted_reason"] = "Motivo del Muteo";
         $array["info_muted_when"] = "Muteado el";
         $array["info_muted_expiry"] = "Expira";
         $array["info_warn_name"] = "Advertencia";
         $array["info_warn_player"] = "Jugador Advertido";
         $array["info_warn_by"] = "Advertido por";
-        $array["info_warn_reason"] = "Razón de la Advertencia";
+        $array["info_warn_reason"] = "Motivo de la Advertencia";
         $array["info_warn_when"] = "Advertido el";
         $array["info_warn_expiry"] = "Expira";
         $array["info_kick_player"] = "Jugador Expulsado";
         $array["info_kick_by"] = "Expulsado por";
-        $array["info_kick_reason"] = "Razón de la Expulsión";
+        $array["info_kick_reason"] = "Motivo de la Expulsión";
         $array["info_kick_when"] = "Fecha de la Expulsión";
 
         $array["bans_player"] = "Nombre";
         $array["bans_by"] = "Baneado por";
-        $array["bans_reason"] = "Razón";
+        $array["bans_reason"] = "Motivo";
         $array["bans_when"] = "Baneado el";
         $array["bans_expiry"] = "Baneado hasta";
 
         $array["kicks_player"] = "Nombre";
         $array["kicks_by"] = "Expulsado por";
-        $array["kicks_reason"] = "Razón";
+        $array["kicks_reason"] = "Motivo";
         $array["kicks_when"] = "Fecha";
 
         $array["mutes_player"] = "Nombre";
         $array["mutes_by"] = "Muteado por";
-        $array["mutes_reason"] = "Razón";
+        $array["mutes_reason"] = "Motivo";
         $array["mutes_when"] = "Muteado el";
         $array["mutes_expiry"] = "Muteado hasta";
 
         $array["warns_player"] = "Nombre";
         $array["warns_by"] = "Advertido por";
-        $array["warns_reason"] = "Razón";
+        $array["warns_reason"] = "Motivo";
         $array["warns_when"] = "Advertido el";
         $array["warns_receive"] = "¿Advertencia Recibida?";
 
+       
+        $array["column_server"] = "Servidor";
+        $array["column_server_global"] = "Todos";
+        
         // Errors which are only accessible from invalid user input or removed pages.
         $array["check_invalid"] = "Nombre Inválido.";
         $array["history_missinguuid"] = "Argumentos Inválidos (uuid).";
