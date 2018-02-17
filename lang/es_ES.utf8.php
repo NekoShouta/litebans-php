@@ -4,7 +4,7 @@ class Lang {
         $array = array();
         $this->array = &$array;
         $array["index_welcome"] = 'Bienvenido a la Lista de Sanciones de {server}.';
-        $array["index_welcome2"] = 'Aquí se encuntran todas las Sanciones del Servidor.';
+        $array["index_welcome2"] = 'Aquí se encuentran todas las sanciones del servidor.';
 
         $array["header_index"] = 'Inicio';
         $array["header_bans"] = 'Baneos';
